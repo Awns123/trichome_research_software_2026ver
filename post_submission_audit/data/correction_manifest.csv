@@ -1,0 +1,35 @@
+﻿taxon_id,gene,original_accession,corrected_accession,action,reason
+Achillea_alpina,rbcL,MG224231.1,MG224231.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Achillea_alpina,matK,LC628094.1,LC628094.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Antennaria_dioica,rbcL,PP798196.1,PP798196.1,REORIENT_FROM_GENBANK_FEATURE,Original FASTA was opposite to annotated gene orientation
+Antennaria_dioica,matK,OR772304.1,OR772304.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Brugmansia_suaveolens,rbcL,ON544034.1,ON544034.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Brugmansia_suaveolens,matK,ON528858.1,ON528858.1,REORIENT_FROM_GENBANK_FEATURE,Original FASTA was opposite to annotated gene orientation
+Calendula_officinalis,rbcL,KM356111.1,KM356111.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Calendula_officinalis,matK,KX783644.1,KX783644.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Capsicum_annuum,rbcL,HF572816.1,HF572816.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Capsicum_annuum,matK,EF438833.1,EF438833.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Centaurea_cyanus,rbcL,PQ337408.1,PQ337408.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Centaurea_cyanus,matK,KJ652203.1,NC_066898.1,REPLACE_NONOVERLAPPING_PARTIAL_WINDOW,Original KJ652203.1 is a short/offset partial window with poor overlap to the shared barcode window; use the selected exact-taxon complete plastome in sensitivity data
+Gaillardia_pulchella,rbcL,OL537641.1,OL537641.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Gaillardia_pulchella,matK,OL537876.1,OL537876.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Lycium_chinense,rbcL,JF942339.1,JF942339.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Lycium_chinense,matK,JF954425.1,JF954425.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Petunia_x_hybrida,rbcL,ON257304.1,ON257304.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Petunia_x_hybrida,matK,KX783752.1,KX783752.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Physalis_alkekengi,rbcL,GQ436615.1,GQ436615.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Physalis_alkekengi,matK,EF438828.1,EF438828.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_cadierei,rbcL,OL537048.1,OL537048.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_cadierei,matK,KX783756.1,KX783756.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_glauca,rbcL,NC_028594.1,NC_054338.1,REPLACE_TAXON_CONTAMINATION,Replace Picea_glauca contamination with Pilea_glauca plastome
+Pilea_glauca,matK,NC_054338.1,NC_054338.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_mollis,rbcL,NC_054341.1,NC_054341.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_mollis,matK,NC_054341.1,NC_054341.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_peperomioides,rbcL,NC_054339.1,NC_054339.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Pilea_peperomioides,matK,NC_054339.1,NC_054339.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Solanum_nigrum,rbcL,HF572811.1,HF572811.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Solanum_nigrum,matK,OQ303564.1,OQ303564.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Tagetes_erecta,rbcL,MF694780.1,MF694780.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Tagetes_erecta,matK,MF694881.1,MF694881.1,REEXTRACT_AND_VERIFY,Byte-independent re-extraction from NCBI feature
+Urtica_dioica,rbcL,,NC_064948.1,ADD_MISSING_RAW_TAXON,Original tree contained Urtica_dioica but ZIP had no raw FASTA/accession
+Urtica_dioica,matK,,NC_064948.1,ADD_MISSING_RAW_TAXON,Original tree contained Urtica_dioica but ZIP had no raw FASTA/accession

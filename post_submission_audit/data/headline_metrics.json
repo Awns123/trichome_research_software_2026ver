@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-07-31T08:57:02.335250+00:00",
+  "original_zip_was_modified": false,
+  "confirmed_nonpass_original_records": 4,
+  "critical_taxon_mismatches": 1,
+  "orientation_or_partial_window_issues": 3,
+  "raw_to_oriented_brugmansia_mean_distance_reduction_percent": 99.13279062243836,
+  "archived_to_minimal_corrected_brugmansia_mean_distance_reduction_percent": 95.04413615082079,
+  "primary_conclusion": "The archived positive morphology-phylogeny association is not robust. It becomes weakly negative and non-significant after feature-orientation correction, and remains non-significant in a standardized-sequence sensitivity analysis.",
+  "causal_diagnostic": "The raw-as-stored pipeline closely recovers the archived correlation, whereas orientation correction collapses the anomalous Brugmansia branch. This pattern is consistent with the reverse-oriented Brugmansia matK record driving much of the archived positive association.",
+  "claim_boundary": "This does not establish absence of evolutionary signal. Six taxa and two plastid markers provide limited information and low statistical power."
+}

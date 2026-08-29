@@ -1,0 +1,24 @@
+{
+  "completed_at_utc": "2026-07-31T08:50:38.990349+00:00",
+  "datasets_requested": [
+    "original_as_stored_16taxa",
+    "original_as_stored_16taxa_focal6",
+    "feature_oriented_original_accessions_16taxa",
+    "feature_oriented_original_accessions_16taxa_focal6",
+    "minimal_corrected_17taxa",
+    "minimal_corrected_17taxa_focal6",
+    "standardized_hybrid_17taxa",
+    "standardized_hybrid_17taxa_focal6"
+  ],
+  "primary_tree_count": 8,
+  "iqtree_run_count": 12,
+  "alignment_qc_rows": 32,
+  "mantel_rows": 5,
+  "mafft_version": "7.526",
+  "iqtree_version": "3.1.3",
+  "seed": 20260731,
+  "primary_trim_rule": "retain gene-alignment columns with gap fraction <= 0.50",
+  "primary_model_strategy": "partitioned ModelFinder with partition merging",
+  "support": "2000 UFBoot with BNNI and 1000 SH-aLRT replicates",
+  "rooting": "unrooted inference; midpoint rooting only for rendered display"
+}

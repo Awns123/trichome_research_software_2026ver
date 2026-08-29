@@ -1,0 +1,2 @@
+DNA, rbcL = 1-677
+DNA, matK = 678-1411

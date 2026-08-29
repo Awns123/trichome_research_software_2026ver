@@ -1,0 +1,35 @@
+Preferred pipeline:
+- taxa: Solanaceae 6 spp
+- features: tortuosity, curvature_mean_rad, log1p(curvature_sum_rad / length_um)
+- unit of analysis: image-level median, then species-level median centroid
+- scaling: z-score
+- distance: Euclidean
+- clustering for visualization: Ward
+
+Main result:
+- Spearman correlation between morphology and molecular distance matrices: 0.775
+- Exact label-permutation p-value (6! = 720): 0.0444
+- Pearson correlation: 0.865
+- Exact label-permutation p-value: 0.0458
+
+Family-specific comparison using the same block:
+- Asteraceae overlap subset: Spearman = -0.257, p = 0.625
+- Solanaceae: Spearman = 0.775, p = 0.0444
+- Urticaceae overlap subset: Spearman = -0.257, p = 0.500
+
+PCA explained variance:
+- PC1 = 80.23%
+- PC2 = 14.82%
+
+Sensitivity:
+- Adding log1p(abs(contraction_ratio)) reduced correspondence:
+  Spearman = 0.661, p = 0.0861
+  Pearson = 0.310, p = 0.5722
+
+Leave-one-species-out:
+- remove B. suaveolens: Spearman=0.261, p=0.7000; Pearson=0.313, p=0.6750
+- remove C. annuum var. grossum: Spearman=0.879, p=0.0500; Pearson=0.861, p=0.0583
+- remove L. chinense Mill.: Spearman=0.927, p=0.0417; Pearson=0.958, p=0.0333
+- remove P. × hybrida ‘Dreams Red’: Spearman=0.709, p=0.1000; Pearson=0.928, p=0.1833
+- remove P. alkekengi var. franchetii: Spearman=0.806, p=0.0667; Pearson=0.858, p=0.0500
+- remove S. nigrum: Spearman=0.733, p=0.1167; Pearson=0.849, p=0.0750
